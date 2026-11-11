@@ -2,6 +2,8 @@
 
 「府中から、宇宙へ。」を軸にした5ページのリブランディング提案サイト。サーバーやデータベースは不要です。
 
+公開サイト: https://ogawa-circular-future.vercel.app
+
 ## 体験
 
 - ドラッグで回転する地球。府中・ベトナム・世界・宇宙の視点移動、拡縮、矢印キー操作。
@@ -42,9 +44,9 @@ python -m http.server 8765 --bind 127.0.0.1 --directory dist
 - Build: `python3 build_site.py && python3 check_site.py`
 - Output: `dist`
 - Install: なし
-- `main` の更新をVercelのGit連携で自動デプロイする想定です。
+- `main` の更新をVercelのGit連携で自動デプロイします。
 
-認証情報は保存しません。`.openai/hosting.json` は初期のSites用設定で、Vercelには不要です。
+認証情報は保存しません。公開URL・管理先・検証結果は [PROJECT.md](PROJECT.md) に記録しています。
 
 ## 内容の扱い
 
