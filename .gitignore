@@ -1,0 +1,13 @@
+asset-review.jpg
+*.tar.gz
+*.log
+__pycache__/
+dist/assets/*.jpg
+!dist/assets/earth_atmos_2048.jpg
+dist/assets/earth.jpg
+optimize_assets.py
+.vercel/
+node_modules/
+.env
+.env.*
+qa/
